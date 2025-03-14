@@ -22,7 +22,7 @@ from helpers import download_file
 CONFIG_FILE = 'jackett.json'
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), CONFIG_FILE)
 CONFIG_DATA = {
-    'api_key': 'lld5iy7exee314dj3wv9acjl816a19jg',  # jackett api
+    'api_key': 'ew4dpm4gzauqmywicl7t6her1s2gusgm',  # jackett api
     'url': 'http://192.168.0.23:9117',  # jackett url
     'tracker_first': False,          # (False/True) add tracker name to beginning of search result
     'thread_count': 20,              # number of threads to use for http requests
